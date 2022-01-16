@@ -11,6 +11,7 @@ public class Scene1Manager : MonoBehaviour
 
     public string userName;
 
+
     private void Awake()
     {
         if (scene1 == null)
@@ -27,9 +28,16 @@ public class Scene1Manager : MonoBehaviour
     public void SetPlayerName()
     {
         userName = inputField.text;
-
         SceneManager.LoadSceneAsync("main");
     }
+
+
+
+
+
+
+
+
 
 
 }
